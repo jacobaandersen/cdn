@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 101.93 13.48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="url.svg"
+   width="101.93"
+   height="13.48"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4">
+    <rect
+       x="6.7996731"
+       y="2.2811806"
+       width="121.82383"
+       height="26.452921"
+       id="rect6" />
+    <rect
+       x="62.162174"
+       y="4.7378368"
+       width="39.657448"
+       height="20.004198"
+       id="rect4" />
+    <rect
+       x="6.7996731"
+       y="2.2811806"
+       width="121.82383"
+       height="26.452921"
+       id="rect6-0" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11.397607"
+     inkscape:cx="53.169057"
+     inkscape:cy="13.994166"
+     inkscape:window-width="3840"
+     inkscape:window-height="2071"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1-2" />
+  <g
+     id="Layer_2"
+     data-name="Layer 2">
+    <g
+       id="Layer_1-2"
+       data-name="Layer 1">
+      <text
+         xml:space="preserve"
+         id="text6-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:6.66667px;line-height:1;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Semi-Condensed';text-align:center;letter-spacing:1px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6-0);display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.393;stroke-dasharray:none;stroke-opacity:0"
+         transform="translate(-16.848172,1.0432976)"><tspan
+           x="20.37954"
+           y="7.5742213"
+           id="tspan2"><tspan
+             style="font-style:italic;font-weight:bold;font-stretch:normal;-inkscape-font-specification:'Bahnschrift Bold Italic'"
+             id="tspan1">jakobhaervig.com/slides</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
