@@ -213,17 +213,17 @@ li {
 }
 
 .reveal .progress span {
-    background: var(--haervig-blue);
+    background: var(--haervig-black);
 }
 
 .reveal .controls {
-    color: var(--haervig-blue);
+    color: var(--haervig-black);
     right: 6em;
 }
 
 .reveal .slide-number {
     font-size: 1rem;
-    color: var(--haervig-blue);
+    color: var(--haervig-black);
     background-color: transparent;
 }
 
