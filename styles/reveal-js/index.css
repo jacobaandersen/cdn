@@ -19,10 +19,10 @@
 }
 
 body {
-    background: url("https://jakobhaervig.github.io/cdn/logo/logo.svg");
+    /* background: url("https://jakobhaervig.github.io/cdn/logo/logo.svg");
     background-size: 10vh;
-    background-position: right 2ch bottom 3ch;
-    background-repeat: no-repeat;
+    background-position: right 3ch bottom 3ch;
+    background-repeat: no-repeat; */
     font-family: var(--haervig-font-family);
     font-weight: 400;
     font-size: 1.2em;
