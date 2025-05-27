@@ -25,7 +25,8 @@
 
     --math-align: left;
 
-    --smaller-font-size: 2.6rem;
+    --smaller-font-size: 1.1rem;
+    --normal-font-size: 3.2rem;
 
     --a-color: var(--wikipedia-a-color);
     --inline-code-bg-color: var(--wikipedia-code-bg-color);
@@ -38,13 +39,12 @@
 }
 
 body {
-    background: url("https://jakobhaervig.github.io/cdn/logo/logo.svg");
     background-size: 10vh;
     background-position: right 2ch bottom 3ch;
     background-repeat: no-repeat;
     font-family: var(--haervig-font-family);
     font-weight: 400;
-    font-size: 3.2rem;
+    font-size: 2em;
 }
 
 section {
@@ -65,15 +65,15 @@ h6 {
 
 h1 {
     text-align: var(--header-1-align);
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.3em;
+    font-size: 1.25em;
 }
 
 h4 {
@@ -144,7 +144,7 @@ img,
 video,
 iframe {
     max-width: 100%; /* Must be % because of multicolumn, as those are sub-divs */
-    max-height: 90vh;
+    max-height: 30vh;
     margin-bottom: var(--content-padding-bottom);
 }
 
