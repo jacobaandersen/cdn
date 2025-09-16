@@ -2,9 +2,18 @@
  @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
 :root {
-    --haervig-blue: #4ca2d5;
-    --haervig-gray: #c3bbaf;
-    --haervig-red: #ef8767;
+    --haervig-blue: #211a52;
+    --haervig-gray: #54616e;
+    --haervig-orange-dark: #bb5b17;
+    --haervig-orange-light: #df8e2e;
+    --haervig-blue-dark: #007fa3;
+    --haervig-blue-light: #31a9c1;
+    --haervig-green-dark: #0e8563;
+    --haervig-green-light: #5caf8d;
+    --haervig-pink-dark: #cc445b;
+    --haervig-pink-light: #e78293;
+    --haervig-brown-dark: #a16547;
+    --haervig-brown-light: #cc8b66;
     --haervig-white: #ffffff;
     --haervig-black: #000000;
     --haervig-font-family: "Montserrat", "Arial", sans-serif;

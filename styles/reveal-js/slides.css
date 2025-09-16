@@ -22,7 +22,7 @@
     --header-color: var(--haervig-black);
 
     --content-align: left;
-    --content-line-height: 1.3;
+    --content-line-height: 1;
     --content-padding-bottom: 0.5em;
 
     --math-align: left;
@@ -67,11 +67,11 @@ h6 {
 
 h1 {
     text-align: var(--header-1-align);
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3 {
@@ -84,7 +84,7 @@ h4 {
 
 h5 {
     text-align: var(--header-5-align);
-    font-size: 2em;
+    font-size: 1em;
 }
 
 h6 {
@@ -100,6 +100,7 @@ strong {
 
 i,
 em {
+    color: var(--haervig-blue);
     font-style: italic;
 }
 
@@ -156,7 +157,7 @@ img,
 video,
 iframe {
     max-width: 100%; /* Must be % because of multicolumn, as those are sub-divs */
-    max-height: 30vh;
+    /* max-height: 30vh; */
     margin-bottom: var(--content-padding-bottom);
 }
 
@@ -256,6 +257,6 @@ div.multicolumn {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: minmax(0, 1fr);
-    gap: 5vw;
+    gap: 4vw;
     margin-bottom: var(--content-padding-bottom);
 }
