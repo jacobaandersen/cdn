@@ -2,11 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
 :root {
-    --haervig-blue: #4ca2d5;
-    --haervig-gray: #c3bbaf;
-    --haervig-red: #ef8767;
-    --haervig-white: #ffffff;
-    --haervig-black: #000000;
+    --haervig-blue: #211a52;
+    --haervig-gray: #54616e;
+    --haervig-orange-dark: #bb5b17;
+    --haervig-orange-light: #df8e2e;
+    --haervig-blue-dark: #007fa3;
+    --haervig-blue-light: #31a9c1;
+    --haervig-green-dark: #0e8563;
+    --haervig-green-light: #5caf8d;
+    --haervig-pink-dark: #cc445b;
+    --haervig-pink-light: #e78293;
+    --haervig-brown-dark: #a16547;
+    --haervig-brown-light: #cc8b66;
     --haervig-font-family: "Montserrat", "Arial", sans-serif;
 
     --wikipedia-a-color: #3366cc;
@@ -67,11 +74,11 @@ h6 {
 
 h1 {
     text-align: var(--header-1-align);
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3 {
@@ -84,7 +91,7 @@ h4 {
 
 h5 {
     text-align: var(--header-5-align);
-    font-size: 2em;
+    font-size: 1em;
 }
 
 h6 {
@@ -157,7 +164,7 @@ img,
 video,
 iframe {
     max-width: 100%; /* Must be % because of multicolumn, as those are sub-divs */
-    max-height: 30vh;
+    /* max-height: 30vh; */
     margin-bottom: var(--content-padding-bottom);
 }
 
@@ -257,6 +264,6 @@ div.multicolumn {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: minmax(0, 1fr);
-    gap: 5vw;
+    gap: 4vw;
     margin-bottom: var(--content-padding-bottom);
 }
