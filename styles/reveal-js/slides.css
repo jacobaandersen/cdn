@@ -22,15 +22,16 @@
 
     --github-font-family: font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 
-    --header-1-align: center;
-    --header-5-align: center;
-    --header-6-align: center;
+    --header-1-align: left;
     --header-align: left;
     --header-color: var(--haervig-black);
 
     --content-align: left;
     --content-line-height: 1.5;
-    --content-padding-bottom: 0.0em;
+    --content-padding-zero: 0em;
+    --content-padding-small: 0.1em;
+    --content-padding-medium: 0.5em;
+    --content-padding-large: 1.5em;
 
     --math-align: left;
 
@@ -79,35 +80,45 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    margin-top: var(--content-padding-small);
+    margin-bottom: var(--content-padding-large);
 }
 
 h3 {
     font-size: 1.25em;
+    color: var(--haervig-orange-dark);
 }
 
 h4 {
     font-size: 1em;
+    margin-bottom: var(--content-padding-medium);
+    color: var(--haervig-orange-dark);
 }
 
 h5 {
-    text-align: var(--header-5-align);
     font-size: 1em;
+    margin-bottom: var(--content-padding-medium);
+    color: var(--haervig-orange-dark);
 }
 
 h6 {
-    text-align: var(--header-6-align);
     font-size: 1em;
+    color: var(--haervig-orange-light);
+    font-style: italic;
+    font-weight: 400;
+    margin-top: var(--content-padding-zero);
+    margin-bottom: var(--content-padding-zero);
 }
 
 b,
 strong {
-    color: var(--haervig-green-dark);
+    color: var(--haervig-orange-dark);
     font-weight: bold;
 }
 
 i,
 em {
-    color: var(--haervig-green-light);
+    color: var(--haervig-orange-light);
     font-style: italic;
 }
 
@@ -158,6 +169,10 @@ blockquote {
     border-color: var(--quote-color);
     padding-left: 0.5ch;
     margin-bottom: var(--content-padding-bottom);
+}
+
+current-fragment {
+    font-weight: bold;
 }
 
 img,
