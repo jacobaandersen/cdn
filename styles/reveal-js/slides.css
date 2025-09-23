@@ -36,6 +36,7 @@
     --math-align: left;
 
     --smaller-font-size: 1.1rem;
+    --small-font-size: 1.6rem;
     --normal-font-size: 3.2rem;
 
     --a-color: var(--wikipedia-a-color);
@@ -206,6 +207,12 @@ pre code {
 }
 
 div.MathJax_Display {
+    text-align: var(--math-align) !important;
+    margin-bottom: var(--content-padding-bottom);
+}
+
+.katex-display {
+    font-size: var(--small-font-size);
     text-align: var(--math-align) !important;
     margin-bottom: var(--content-padding-bottom);
 }
